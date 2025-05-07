@@ -137,7 +137,7 @@ table {
 /* რამდენიმე ფონტის შემთხვევაში  უნდა დავამატოთ ქვემოთ მეორე font family*/
 
 body {
-  font: lexend-deca-<uniquifier> {
+  font-family: lexend-deca-<uniquifier> {
     font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
