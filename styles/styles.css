@@ -127,3 +127,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* fds */
+@font-face {
+  font-family: "deca";
+
+  src: url("../asstes/fonts/applet");
+}
+/* რამდენიმე ფონტის შემთხვევაში  უნდა დავამატოთ ქვემოთ მეორე font family*/
+
+body {
+  font: lexend-deca-<uniquifier> {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+}
+
+a {
+}
